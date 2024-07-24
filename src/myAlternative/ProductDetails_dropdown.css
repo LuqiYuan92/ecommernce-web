@@ -1,0 +1,147 @@
+.container_details {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.return {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -450px;
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.detailBox {
+  width: 1050px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid lightgray;
+  align-items: center;
+}
+
+.detailBox .imgSmallWrap {
+  width: 110px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgSmall {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.imgSmall img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border: 1px solid lightgray;
+}
+
+.detailBox .imgBig {
+  width: 400px;
+  height: 500px;
+  background-color: #fcfcfc;
+}
+
+.detailBox .imgBig img {
+  width: 380px;
+  height: 480px;
+  object-fit: contain;
+}
+
+.details {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.colorPalatte {
+  width: 400px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+button.basketbutton {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(15, 15, 15);
+  color: #fff;
+}
+
+.dropdown-button {
+  width: 400px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcfcfc;
+}
+
+.sizeIcons {
+  width: 35px;
+  height: 30px;
+  border-left: 1px solid lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown-text {
+  width: 300px;
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.menu {
+  width: 400px;
+  height: 80px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  border-radius: 10px;
+  position: absolute;
+  background-color: #fcfcfc;
+}
+
+li.menu-item {
+  list-style: none;
+  width: 100%;
+  height: 20px;
+}
+
+button.item-btn {
+  border: none;
+  background-color: #fcfcfc;
+}
+
+button.item-btn :hover {
+  background-color: antiquewhite;
+}

@@ -1,0 +1,192 @@
+.basketContainer {
+  width: 600px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.topBox {
+  width: 550px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mycolorCircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+}
+
+button.mycolorCircle {
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.selectColor {
+  margin-top: -5px;
+}
+
+.basketBanner {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.topLeft {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.empty {
+  width: 600px;
+  min-height: 300px;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty h2 {
+  color: rgb(109, 107, 107);
+}
+
+.clearBsk,
+.closeBtn {
+  width: 100px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid rgb(146, 144, 144);
+  cursor: pointer;
+}
+
+.cartInforBox {
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  height: fit-content;
+  min-height: max-content;
+}
+
+.addedItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li.productBox {
+  width: 550px;
+  height: 130px;
+  border: 1.5px solid rgb(116, 113, 113);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.adjustQuan {
+  width: 30px;
+  height: 100px;
+  background-color: palegoldenrod;
+}
+
+.removeBtn {
+  width: 40px;
+  height: 40px;
+}
+
+.itemImg {
+  width: 100px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.itemDetails {
+  width: 300px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.itemName {
+  width: 300px;
+  height: 30px;
+}
+
+.addBtn,
+.reduceBtn {
+  height: 50px;
+  width: 100%;
+}
+
+.productInfor {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.shopDetail {
+  width: 230px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.itemPrice {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.totalBox {
+  width: 550px;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkOutBtn {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 2px solid #fff;
+}
+
+.totalBox {
+  margin-top: 30px;
+}
+
+.calSum {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sumText {
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 10px;
+}

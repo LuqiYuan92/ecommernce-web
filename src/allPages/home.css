@@ -1,0 +1,83 @@
+.home {
+  width: 100%;
+  height: 550px;
+}
+
+.bannerBox {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bannerBox .banner {
+  width: 600px;
+  height: 400px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.bannerBox .banner h1 {
+  width: 400px;
+  height: 100px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.bannerBox .banner p {
+  width: 450px;
+  height: 100px;
+  color: #4a4a4a;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.image {
+  width: 600px;
+  height: 400px;
+  background-color: #f9f9f9;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  margin-left: 30px;
+  background-color: rgb(14, 14, 14);
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.arrowShop {
+  margin-top: 5px;
+}
+
+.displaySection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.displayTitle {
+  width: 1080px;
+  height: 60px;
+}
