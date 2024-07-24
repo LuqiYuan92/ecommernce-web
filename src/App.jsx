@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
 import FeaturedProducts from "./allPages/featuredProducts";
 import Shop from "./allPages/Shop";
 import Nav from "./components/Nav";
-import Home from "./allPages/index";
+import Home from "./allPages/home";
 import MyProductDetails from "./allPages/myProductDetails";
 import PageNotFound from "./allPages/PageNotFound";
 import { Provider } from "react-redux";
