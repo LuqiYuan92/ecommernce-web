@@ -14,7 +14,7 @@ function Home() {
       <div className="bannerBox">
         <div className="banner">
           <h1>
-            <strong>SEE</strong>&nbsp;everything with&nbsp;
+            <strong>See</strong>&nbsp;everything with&nbsp;
             <strong>Clarity</strong>
           </h1>
           <p>
